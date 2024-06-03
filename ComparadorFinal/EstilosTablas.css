@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url("FondoTablas.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+}
+
+@media (max-width: 480px) {
+    table {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    table {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 20px;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #f2f2f2;
+    }
+    
+    img {
+        max-width: 100px;
+        height: auto;
+    }
+}
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    align-items: center;
+}
+
+th {
+    background-color: #5995fd;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: grey;
+}
+
+h2 {
+    color: #5995fd;
+    text-align: center;
+}
+
+
+
+
+
+

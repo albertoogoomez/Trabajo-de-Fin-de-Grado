@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 180px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Color verde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049; /* Color verde más claro en hover */
+  }
+
+  input[type="file"] {
+    background-color: #225588; /* Color verde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+  }
+  
+  input[type="file"]:hover {
+    background-color: #225566; /* Color verde más claro en hover */
+  }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.section h4 {
+    margin-bottom: 10px;
+}
+
+.input-file {
+    display: none; /* Oculta el campo de entrada de archivo */
+  }
+  
+  .file-button {
+    background-color: #4CAF50; /* Color verde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+  }
+
+  input[type="text"] {
+    background-color: #c8e3ff; /* Color verde */
+    color: black; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    border: none; /* Quitamos el borde predeterminado */
+    border-bottom: 2px solid #555; /* Borde gris oscuro en la parte inferior */
+    border-right: 2px solid #555; /* Borde gris oscuro en la parte derecha */
+    padding: 5px; /* Espacio interno */
+    outline: none; /* Quitamos el contorno al hacer clic */
+  }
+
+  input[type="text"]:focus {
+    border: 2px solid black; /* Borde negro completo al estar seleccionado */
+  }
+ 

@@ -1,0 +1,8 @@
+.logo {
+    width: 60px; /* Ancho deseado */
+    height: 55px; /* Alto deseado */
+    border-radius: 20%; /* Forma redonda */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra ligera */
+    float: right;
+    max-width: 100%;
+  }
